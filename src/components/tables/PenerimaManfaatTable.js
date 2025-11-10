@@ -10,7 +10,7 @@ import DataTableLib from "datatables.net-dt";
 // Register DataTables core/styling
 DataTable.use(DataTableLib);
 
-export default function NestedDataTable({ data }) {
+export default function PenerimaManfaatTable({ data }) {
   const tableRef = useRef(null);
 
   const columns = useMemo(

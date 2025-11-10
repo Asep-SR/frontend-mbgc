@@ -3,16 +3,11 @@ import MobileMenu from "@/components/common/mobile-menu";
 import Footer from "@/components/property/dashboard/Footer";
 import data from "@/data/daftar-sppg.json";
 import TopStateBlock from "@/components/data/daftar-sppg/TopStateBlock";
-import dynamic from 'next/dynamic'
+import ClientOnlyTable from "@/components/tables/ClientOnlyTable";
 
 export const metadata = {
   title: "Daftar SPPG || MBGC - Satgas Percepatan MBG Kabupaten Ciamis",
 };
-
-const ClientOnlyTable = dynamic(
-  () => import('@/components/tables/ClientOnlyTable'),
-  { ssr: false }
-)
 
 export default async function DashboardHomePage() {
 
