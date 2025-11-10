@@ -3,22 +3,22 @@ import React from "react";
 const statisticsData = [
   {
     text: "Jumlah Kecamatan Penerima Manfaat",
-    title: "27",
+    title: "-",
     icon: "flaticon-home",
   },
   {
     text: "Jumlah Desa Penerima Manfaat",
-    title: "270",
+    title: "-",
     icon: "flaticon-search-chart",
   },
   {
     text: "Jumlah Penerima Manfaat (orang)",
-    title: "161.694",
+    title: "-",
     icon: "flaticon-review",
   },
   {
     text: "Jumlah Sekolah Penerima Manfaat",
-    title: "1.880",
+    title: "-",
     icon: "flaticon-like",
   },
 ];

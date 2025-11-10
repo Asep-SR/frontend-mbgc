@@ -32,13 +32,13 @@ export default async function DashboardHomePage() {
                 <TopStateBlock />
               </div>
 
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-lg-12">
                   <div className="datatable-wrapper">
                     <ClientOnlyTable data={data} />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <Footer />
           </div>

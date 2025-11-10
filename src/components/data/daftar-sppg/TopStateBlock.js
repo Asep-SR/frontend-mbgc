@@ -3,22 +3,22 @@ import React from "react";
 const statisticsData = [
   {
     text: "Jumlah SPPG (existing saat ini)",
-    title: "127",
+    title: "-",
     icon: "flaticon-home",
   },
   {
     text: "Jumlah SPPG Operasional",
-    title: "93",
+    title: "-",
     icon: "flaticon-search-chart",
   },
   {
     text: "Jumlah Penerima Manfaat (orang)",
-    title: "9.438",
+    title: "-",
     icon: "flaticon-review",
   },
   {
     text: "Jumlah Relawan (orang)",
-    title: "652",
+    title: "-",
     icon: "flaticon-like",
   },
   // {
